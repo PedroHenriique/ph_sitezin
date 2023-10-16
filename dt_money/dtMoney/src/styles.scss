@@ -1,0 +1,23 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+.btn-padrao {
+    color: white;
+    background-color: #00875F;
+    border: none;
+    padding: 1%;
+    transition: all 0.2s ease;
+
+    &:hover {
+        filter: brightness(50%);
+    }
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

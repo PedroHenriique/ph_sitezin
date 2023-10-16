@@ -1,0 +1,11 @@
+<div class="card">
+    <div class="abstrato">
+        <div class="info">
+            <p class="titulo">{{ title }}</p>
+        </div>
+        <div class="imagem">
+            <img [src]="(case === 'total' ? '../../assets/cifrao.png' : (case === 'saida') ? '../../assets/setinha-pra-baixo.png' : '../../assets/setinha.svg')">
+        </div>
+    </div>
+    <p class="precos">R$ {{ valor }}</p>
+</div>

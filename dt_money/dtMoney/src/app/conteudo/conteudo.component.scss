@@ -1,0 +1,55 @@
+.container {
+  width: 100%;
+  display: flex;
+
+  .box-pesquisa {
+    width: 100%;
+    display: flex;
+
+    .pesquisa {
+      width: 100%;
+
+      form {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+
+        input {
+          background-color: #121214;
+          border-radius: 7px;
+          height: 40px;
+          border: none;
+          width: 86%;
+
+          &::placeholder {
+            color: #7c7c8a;
+            width: 100%;
+            padding-left: 16px;
+          }
+        }
+
+        .pesquisar {
+          width: 140px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 7px;
+          border: 2px solid #00b37e;
+          background-color: #202024;
+          gap: 12px;
+
+          span {
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 160%;
+            color: #00B37E;
+          }
+        }
+      }
+    }
+  }
+}
