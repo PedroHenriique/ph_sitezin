@@ -1,13 +1,20 @@
-<div class="modal fade" [id]="modalId">
-    <div class="modal-body">
-        <div class="modal-content bg-dark text-white">
-            <!-- <button data-dismiss="modal">X</button> -->
-            <ng-content></ng-content>
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content  bg-dark">
+        <div class="modal-header">
+          <h5 class="modal-title text-white mt-4" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <img src="../../assets/chix.svg" width="25px">
+          </button>
         </div>
+        <div class="modal-body">
+          <input type="text" class="form-control inputModal mb-3" placeholder="Descrição">
+          <input type="text" class="form-control inputModal mb-3" placeholder="Preço">
+          <input type="text" class="form-control inputModal mb-3" placeholder="Categoria">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn mb-3 btn-cadastrar">Cadastrar</button>
+        </div>
+      </div>
     </div>
-</div>
-
-<!-- 
-    Para abrir o meu modal, segue um exemplo de um botao, se não for infomado input id o valor padrão sera "modal"
-    <button data-toggle="modal" data-target="#modal">Meu botão</button>
- -->
+  </div>

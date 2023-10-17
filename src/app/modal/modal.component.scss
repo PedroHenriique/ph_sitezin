@@ -1,13 +1,21 @@
-.modal-body {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;    
+
+.modal-header {
+    border-bottom: 0 !important;
 }
 
-.modal-content {
-    width: 25%;
-    height: 328px;
-    flex-shrink: 0;
+.modal-footer {
+    border-top: 0 !important;
+}
+
+.inputModal {
+    background-color: #121214;
+    border: none !important;
+    height: 3rem;
+}
+
+.btn-cadastrar {
+    width: 100%;
+    height: 48px;
+    background-color: #00875F;
+    color: white;
 }
