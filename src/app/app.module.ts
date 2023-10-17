@@ -25,6 +25,6 @@ import { ModalComponent } from './modal/modal.component';
     AppRoutingModule,
 ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, ModalComponent]
 })
 export class AppModule { }
