@@ -11,6 +11,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { CardComponent } from './card/card.component';
 import { ConteudoComponent } from './conteudo/conteudo.component';
 import { ModalComponent } from './modal/modal.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ModalComponent } from './modal/modal.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule
 ],
   providers: [],
   bootstrap: [AppComponent, ModalComponent]

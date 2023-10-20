@@ -8,12 +8,12 @@
           </button>
         </div>
         <div class="modal-body">
-          <input type="text" class="form-control inputModal mb-3" placeholder="Descrição">
-          <input type="text" class="form-control inputModal mb-3" placeholder="Preço">
-          <input type="text" class="form-control inputModal mb-3" placeholder="Categoria">
+          <input type="text" class="form-control inputModal mb-3" [(ngModel)]="transacao.descricao" placeholder="Descrição">
+          <input type="text" class="form-control inputModal mb-3" [(ngModel)]="transacao.preco" placeholder="Preço">
+          <input type="text" class="form-control inputModal mb-3" [(ngModel)]="transacao.categoria" placeholder="Categoria">
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn mb-3 btn-cadastrar">Cadastrar</button>
+          <button type="button" class="btn mb-3 btn-cadastrar" (click)="cadastrarTransacoes()">Cadastrar</button>
         </div>
       </div>
     </div>
