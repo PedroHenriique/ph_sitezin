@@ -1,6 +1,6 @@
 <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
-      <div class="modal-content  bg-dark">
+      <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title text-white mt-4" id="exampleModalLabel">Modal title</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -11,6 +11,10 @@
           <input type="text" class="form-control inputModal mb-3" [(ngModel)]="transacao.descricao" placeholder="Descrição">
           <input type="text" class="form-control inputModal mb-3" [(ngModel)]="transacao.preco" placeholder="Preço">
           <input type="text" class="form-control inputModal mb-3" [(ngModel)]="transacao.categoria" placeholder="Categoria">
+          <div class="botao w-100 h-100 d-flex">
+          <button id="botoes" class="entrada mt-3 w-50  border-0">Entrada</button>
+          <button id="botoes" class="entrada mt-3 w-50  border-0">Saída</button>
+          </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn mb-3 btn-cadastrar" (click)="cadastrarTransacoes()">Cadastrar</button>

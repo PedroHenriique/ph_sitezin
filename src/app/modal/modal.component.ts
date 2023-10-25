@@ -36,5 +36,4 @@ export class ModalComponent implements OnInit {
     };
     console.log("depois do push", this.listaTransacoes);
   }
-
 }
